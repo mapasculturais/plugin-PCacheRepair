@@ -30,7 +30,7 @@ A pasta do plugin precisa ficar em `src/plugins/PCacheRepair`. **O nome da pasta
   ```
 - ou como submódulo git do repositório da instalação:
   ```bash
-  git submodule add <url-do-repositorio-do-plugin> src/plugins/PCacheRepair
+  git submodule add https://github.com/mapasculturais/plugin-PCacheRepair.git src/plugins/PCacheRepair
   ```
 
 **Em desenvolvimento ou homologação (docker compose):** monte a pasta como volume no serviço do Mapas, trocando `<caminho-do-plugin>` pelo lugar onde você clonou o plugin:
